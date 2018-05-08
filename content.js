@@ -48,7 +48,7 @@ ansibletooltip = `
 linuxtooltip = `
   **GNU/Linux**
 
-  De Verdad? ¿Tenemos que explicar lo que es GNU / Linux? Desde su teléfono móvil a su automóvil
+  ¿De verdad tenemos que explicar lo que es GNU / Linux? Desde su teléfono móvil a su automóvil
   incluso su TV, GNU/Linux está en todos lados, y esa es una buena noticia, como hemos estado
   usando,   configurándolo y contribuyendo a este ecosisistema durante mas de 20 años ;)
 
