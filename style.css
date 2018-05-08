@@ -1,0 +1,47 @@
+body {
+  background-color: #141010;
+  color: white;
+}
+
+#punchline {
+  font-family: "Monospace";
+  font-size: 0.8em;
+  font-style: oblique;
+  color: #b4b0b0;
+}
+
+#techs {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+#techs img {
+  height: 50px;
+  padding: 5px;
+}
+
+#contact {
+  font-size: 0.8em;
+}
+
+.footer {
+  background-color: #343030;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.footer a {
+  color: white;
+}
+
+.tooltip-inner {
+  max-width: 450px;
+  text-align:left;
+  background-color: #f4f0f0;
+  color: #343030;
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Emilio Heitor">
+    <meta name="keywords" content="Consulting, Consultoría, Cloud Computing, AWS, Amazon Web Services,
+      Google Cloud Platform, GCP, CloudFormation, Terraform, Ansible, git, Jenkins,
+      HashiCorp, Linux, UNIX, Docker, Docker Compose, DevOps, python, go">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Indalit Cloud Consulting, your DevOps desk</title>
+  </head>
+  <body>
+
+    <div class="container" id="indalit">
+
+      <div class="row" style="margin-top: 50px">
+        <div class="col-md-12">
+          <img src="images/Indalit_Logo.png"
+            data-toggle="tooltip" data-placement="bottom" data-html="true"
+            :title="marked(indalittooltip)"
+            alt="Indalit Cloud Computing" class="mx-auto d-block" style="width: 20%">
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px; text-align: center;">
+        <div class="col-md-12" id="punchline">
+          Algunas tecnologias con las cuales le podemos ayudar
+        </div>
+      </div>
+
+      <div class="row" id="techs">
+        <div class="col-md-2" v-for="tech in technos">
+          <a :href="tech.link"
+            data-toggle="tooltip" data-placement="bottom" data-html="true"
+            :title="marked(tech.tooltip)">
+            <img :src="tech.img" :alt="tech.alt">
+          </a>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 50px; margin-bottom: 50px; text-align: center;">
+        <div class="col-md-12" id="contact">
+          <i class="fa fa-angle-down fa-2x"></i><br />
+          <a href="mailto:info@indalit.com">
+            <i class="far fa-envelope fa-2x"></i>
+          </a><br />
+          contactenos
+        </div>
+      </div>
+
+      <div class="footer fixed-bottom">
+        <div class="row">
+          <div class="col-md-6" style="text-align: left">
+            <a href="https://github.com/iMilnb/">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <i class="far fa-copyright"></i> 2018 - Indalit Cloud Consulting
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="content.js"></script>
+  </body>
+</html>
