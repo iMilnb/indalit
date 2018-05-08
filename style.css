@@ -45,3 +45,7 @@ body {
   background-color: #f4f0f0;
   color: #343030;
 }
+
+.tooltip .arrow:before {
+  border-bottom-color: #f4f0f0;
+}
