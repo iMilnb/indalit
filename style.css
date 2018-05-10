@@ -48,4 +48,5 @@ body {
 
 .tooltip .arrow:before {
   border-bottom-color: #f4f0f0;
+  border-top-color: #f4f0f0;
 }
